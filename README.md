@@ -141,6 +141,11 @@ Backend-focused Software Engineering student passionate about building **scalabl
 ![Profile Views](https://komarev.com/ghpvc/?username=HamidKhan1001&color=blueviolet&style=for-the-badge)
 
 ---
+## 📊 Activity Overview
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=HamidKhan1001&theme=github)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=HamidKhan1001&theme=github)
+
 
 ⭐️ From [HamidKhan1001](https://github.com/HamidKhan1001) | Building the future, one commit at a time
 

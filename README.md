@@ -15,11 +15,11 @@
 
 ## 🚀 About Me
 
-Backend-focused Software Engineering student passionate about building **scalable APIs**, **distributed systems**, and **applied AI solutions**. Currently contributing to open-source projects and preparing for **Google Summer of Code 2025**.
+Backend-focused Software Engineering student passionate about building **scalable APIs**, **distributed systems**, and **applied AI solutions**. Currently contributing to open-source projects and preparing for **Google Summer of Code 2026**.
 
 - 🔭 Working on: **AI-powered educational tools** & **distributed backend systems**
 - 🌱 Learning: **System Design**, **Microservices Architecture**, **MLOps**
-- 🎯 2025 Goal: **Get selected for GSoC 2025**
+- 🎯 2026 Goal: **Get selected for GSoC 2026**
 - 💡 Interests: **Backend Engineering**, **NLP**, **Computer Vision**
 
 ---

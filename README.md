@@ -92,7 +92,7 @@ Backend-focused Software Engineering student passionate about building **scalabl
 
 - **[AOSSIE-Org/EduAid](https://github.com/AOSSIE-Org/EduAid)** - AI Quiz Generation Tool
   - 🔧 [PR #425](https://github.com/AOSSIE-Org/EduAid/pull/425): Fixed README documentation & removed duplicate imports
-  - 🔧 [PR #XXX](https://github.com/AOSSIE-Org/EduAid/pull/XXX): Fixed PyTorch version compatibility issues
+  - 🔧 [PR #433](https://github.com/AOSSIE-Org/EduAid/pull/433): Fixed PyTorch version compatibility issues
   - 🐛 [Issue #413](https://github.com/AOSSIE-Org/EduAid/issues/413): Identified dependency conflicts
   - 🐛 [Issue #424](https://github.com/AOSSIE-Org/EduAid/issues/424): Documented backend setup issues
 

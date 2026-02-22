@@ -19,8 +19,8 @@ Backend engineer with **1.5+ years of production experience** building systems t
 
 Currently a 4th-semester Software Engineering student at 21, contributing to open source and targeting **GSoC 2026**.
 
-- 🏢 **Software Engineer** @ Admissions Express — 1.5 years (ed-tech, 1,000+ users)
-- 🤖 **AI Engineer** @ Xvantech AI Solutions (US) — built call agents & AI automation pipelines
+- 🏢 **Software Engineer** 1.5 years (ed-tech, 1,000+ users)
+- 🤖 **AI Engineer** built call agents & AI automation pipelines
 - 📊 **Data:** Web scraped & processed 27,000+ professional profiles for production use
 - 🧠 **200+ LeetCode** problems solved
 - 🏆 **Microsoft Imagine Cup** participant (LinguaCoach)

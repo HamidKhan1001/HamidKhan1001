@@ -1,8 +1,8 @@
 <div align="center">
-  
-# 👨‍💻 Hamid Khan
 
-### Backend Engineer | AI/ML Enthusiast | Open Source Contributor
+# Hamid Khan
+
+### Backend Engineer · Applied AI · Open Source
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://portfolio-hamid-khan.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hamid-khan-96548833b)
@@ -13,50 +13,91 @@
 
 ---
 
-## 🚀 About Me
+## About Me
 
-Backend-focused Software Engineering student passionate about building **scalable APIs**, **distributed systems**, and **applied AI solutions**. Currently contributing to open-source projects and preparing for **Google Summer of Code 2026**.
+Backend engineer with **1.5+ years of production experience** building systems that handle real users and real data. I've shipped NLP pipelines, AI call agents, web scrapers processing 27,000+ profiles, and full-stack platforms — not just tutorials.
 
-- 🔭 Working on: **AI-powered educational tools** & **distributed backend systems**
-- 🌱 Learning: **System Design**, **Microservices Architecture**, **MLOps**
-- 🎯 2026 Goal: **Get selected for GSoC 2026**
-- 💡 Interests: **Backend Engineering**, **NLP**, **Computer Vision**
+Currently a 4th-semester Software Engineering student at 21, contributing to open source and targeting **GSoC 2026**.
+
+- 🏢 **Software Engineer** @ Admissions Express — 1.5 years (ed-tech, 1,000+ users)
+- 🤖 **AI Engineer** @ Xvantech AI Solutions (US) — built call agents & AI automation pipelines
+- 📊 **Data:** Web scraped & processed 27,000+ professional profiles for production use
+- 🧠 **200+ LeetCode** problems solved
+- 🏆 **Microsoft Imagine Cup** participant (LinguaCoach)
+- 🎯 **2026 Goal:** GSoC selection + backend engineering internship at a top tech company
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
 ### Backend & Frameworks
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
-### AI/ML & Data Science
+### AI / ML
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
-### Databases & Tools
+### Databases & Infrastructure
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 ---
 
-## 📊 GitHub Stats
+## Featured Projects
 
 <div align="center">
-  
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=The_GemStones&theme=radical&hide_border=true)](https://github.com/HamidKhan1001/The_GemStones)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=linguaCoach&theme=radical&hide_border=true)](https://github.com/HamidKhan1001/linguaCoach)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=AI-Blog-Generator-SEO-Optimizer&theme=radical&hide_border=true)](https://github.com/HamidKhan1001/AI-Blog-Generator-SEO-Optimizer)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=moodmate-emotion-detector&theme=radical&hide_border=true)](https://github.com/HamidKhan1001/moodmate-emotion-detector)
+
+</div>
+
+---
+
+## Open Source
+
+### Active Contributions
+
+- **[oppia/oppia](https://github.com/oppia/oppia)** ⭐ 6.5k — Free online learning platform
+  - Active contributor (Feb 2026–present)
+
+- **[AOSSIE-Org/EduAid](https://github.com/AOSSIE-Org/EduAid)** — AI Quiz Generation Tool
+  - 🔧 [PR #425](https://github.com/AOSSIE-Org/EduAid/pull/425): Fixed README documentation & removed duplicate imports
+  - 🔧 [PR #433](https://github.com/AOSSIE-Org/EduAid/pull/433): Fixed PyTorch version compatibility issues
+  - 🐛 [Issue #413](https://github.com/AOSSIE-Org/EduAid/issues/413): Identified dependency conflicts
+  - 🐛 [Issue #424](https://github.com/AOSSIE-Org/EduAid/issues/424): Documented backend setup issues
+
+- **[AOSSIE-Org/Resonate-Website](https://github.com/AOSSIE-Org/Resonate-Website)**
+  - 🔧 [PR](https://github.com/AOSSIE-Org/Resonate-Website): Fixed GSAP timeline memory leak in React cleanup
+
+```
+📝 Pull Requests: 3 open    🐛 Issues: 2    🏢 Orgs: oppia, AOSSIE-Org
+```
+
+---
+
+## GitHub Stats
+
+<div align="center">
+
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=HamidKhan1001&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=HamidKhan1001&theme=radical&hide_border=true)
@@ -67,46 +108,13 @@ Backend-focused Software Engineering student passionate about building **scalabl
 
 ---
 
-## 📈 Contribution Graph
+## Contribution Graph
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=HamidKhan1001&theme=react-dark&hide_border=true&area=true)
 
 ---
 
-## 🏆 Featured Projects
-
-<div align="center">
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=Image_Captioner_flask&theme=radical&hide_border=true)](https://github.com/HamidKhan1001/Image_Captioner_flask)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=moodmate-emotion-detector&theme=radical&hide_border=true)](https://github.com/HamidKhan1001/moodmate-emotion-detector)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=student-tool-kit&theme=radical&hide_border=true)](https://github.com/HamidKhan1001/student-tool-kit)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=Text-To-Voice-And-Voice-To-Text-Tool-HKtools&theme=radical&hide_border=true)](https://github.com/HamidKhan1001/Text-To-Voice-And-Voice-To-Text-Tool-HKtools)
-
-</div>
-
----
-
-## 💼 Open Source Contributions
-
-### 🎯 Active Contributions
-
-- **[AOSSIE-Org/EduAid](https://github.com/AOSSIE-Org/EduAid)** - AI Quiz Generation Tool
-  - 🔧 [PR #425](https://github.com/AOSSIE-Org/EduAid/pull/425): Fixed README documentation & removed duplicate imports
-  - 🔧 [PR #433](https://github.com/AOSSIE-Org/EduAid/pull/433): Fixed PyTorch version compatibility issues
-  - 🐛 [Issue #413](https://github.com/AOSSIE-Org/EduAid/issues/413): Identified dependency conflicts
-  - 🐛 [Issue #424](https://github.com/AOSSIE-Org/EduAid/issues/424): Documented backend setup issues
-
-### 🌟 Contribution Highlights
-```text
-📝 Pull Requests: 2+ open
-🐛 Issues Raised: 2
-💬 Code Reviews: Active
-🎯 Focus Areas: Backend optimization, Documentation, Dependency management
-```
-
----
-
-## 🎓 Coding Profiles
+## Coding Profiles
 
 <div align="center">
 
@@ -116,37 +124,10 @@ Backend-focused Software Engineering student passionate about building **scalabl
 
 ---
 
-## 📫 Let's Connect
-
 <div align="center">
-
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Now-4285F4?style=for-the-badge)](https://portfolio-hamid-khan.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Connect-0077B5?style=for-the-badge)](https://linkedin.com/in/hamid-khan-96548833b)
-[![Email](https://img.shields.io/badge/📧_Email-Contact_Me-D14836?style=for-the-badge)](mailto:hamidkhanpubgid@gmail.com)
-
-**Open to collaborations, internships, and GSoC 2025 opportunities!**
-
-</div>
-
----
-
-<div align="center">
-
-### 💭 Quote of the Day
-
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 👁️ Profile Views
 
 ![Profile Views](https://komarev.com/ghpvc/?username=HamidKhan1001&color=blueviolet&style=for-the-badge)
 
----
-## 📊 Activity Overview
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=HamidKhan1001&theme=github)
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=HamidKhan1001&theme=github)
-
-
-⭐️ From [HamidKhan1001](https://github.com/HamidKhan1001) | Building the future, one commit at a time
+*Building systems that survive the real world — one commit at a time*
 
 </div>

@@ -17,13 +17,12 @@
 
 Software Engineering student building scalable backend systems and machine learning solutions. I focus on solving real-world problems through clean code, open source contributions, and thoughtful system design.
 
-Currently working on open source projects, contributing to established codebases, and preparing for Google Summer of Code 2026.
+Currently working on open source projects, contributing to established codebases.
 
 - 🔧 Backend development with Python, Node.js, and system design
 - 🤖 Machine learning & NLP pipeline development  
 - 📊 Data processing and web scraping at scale
 - 🌐 Open source contributor (Oppia, AOSSIE-Org)
-- 🎯 2026 Goal: GSoC selection & internship at a top tech company
 
 ---
 

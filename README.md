@@ -1,8 +1,6 @@
 <div align="center">
 
-# Hamid Naeem Khan
-
-### Software Engineering Student · AI / ML · Systems Builder
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Hamid%20Naeem%20Khan&fontSize=44&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Backend%20Engineer%20%E2%80%A2%20AI%20%2F%20ML%20%E2%80%A2%20Systems%20Builder&descAlignY=56&descSize=17"/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://portfolio-hamid-khan.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hamid-khan-96548833b)
@@ -24,6 +22,7 @@ Software Engineering student building **production-grade backend systems**, lear
 - 🏗️ Implementing FAANG-level system designs with full test suites
 - 📐 Thinking in architecture before thinking in code
 - 🌐 Open source contributor — Oppia, EduAid, Resonate
+- 📍 Pakistan · Open to remote roles & relocation
 
 <br clear="right"/>
 
@@ -131,6 +130,8 @@ Software Engineering student building **production-grade backend systems**, lear
 ---
 
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=110&section=footer&animation=twinkling"/>
 
 *Building systems that scale · Learning every day · Shipping things that matter*
 

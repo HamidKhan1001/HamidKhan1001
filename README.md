@@ -2,7 +2,7 @@
 
 # Hamid Naeem Khan
 
-### Backend Engineer · AI / ML · Systems Builder
+### Software Engineering Student · AI / ML · Systems Builder
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://portfolio-hamid-khan.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hamid-khan-96548833b)
@@ -24,7 +24,6 @@ Software Engineering student building **production-grade backend systems**, lear
 - 🏗️ Implementing FAANG-level system designs with full test suites
 - 📐 Thinking in architecture before thinking in code
 - 🌐 Open source contributor — Oppia, EduAid, Resonate
-- 📍 Pakistan · Open to remote roles & relocation
 
 <br clear="right"/>
 

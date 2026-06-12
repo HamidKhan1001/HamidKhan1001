@@ -22,7 +22,6 @@ Software Engineering student building **production-grade backend systems**, lear
 - 🏗️ Implementing FAANG-level system designs with full test suites
 - 📐 Thinking in architecture before thinking in code
 - 🌐 Open source contributor — Oppia, EduAid, Resonate
-- 📍 Pakistan · Open to remote roles & relocation
 
 <br clear="right"/>
 

@@ -16,7 +16,7 @@
 
 ### 👋 About Me
 
-Software Engineering student building **production-grade backend systems**, implementing **FAANG-level system designs** from scratch, and shipping AI-powered products.
+Software Engineering student building **production-grade backend systems**, implementing **High-level system designs** from scratch, and shipping AI-powered products.
 
 - 🏗️ **30+ backend & system-design projects** — fully tested, documented, pushed
 - 🔬 Deep-diving distributed systems: caches, crawlers, ID generators, blob stores

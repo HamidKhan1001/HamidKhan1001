@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Hamid%20Naeem%20Khan&fontSize=44&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Junior%20AI%20Solutions%20Architect%20%E2%80%A2%20Backend%20Engineer%20%E2%80%A2%20Systems%20Builder&descAlignY=56&descSize=17"/>
+# Hamid Naeem Khan
+
+### Backend Engineer · AI / ML · Systems Builder
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://portfolio-hamid-khan.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hamid-khan-96548833b)
@@ -14,40 +16,17 @@
 
 <img align="right" width="390" src="https://github-readme-stats.vercel.app/api?username=HamidKhan1001&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
 
-### 👋 Who I Am
+### 👋 About Me
 
-I design and build **end-to-end AI systems** — from the infrastructure layer up to the intelligent agent loop. My focus is on **AI solution architecture**: deciding *what* to build, *why* it scales, and *how* to wire real-world AI pipelines that survive production.
+Software Engineering student building **production-grade backend systems**, learning **AI/ML**, and shipping real products from scratch.
 
-- 🧠 **AI Systems** — multi-agent pipelines, RAG architectures, LLM toolchains
-- 🏗️ **Distributed Systems** — caches, crawlers, blob stores, rate limiters from scratch
-- 📐 **Solution Design** — I think in diagrams before I think in code
-- 🌐 **Open Source** — Oppia, EduAid, Resonate
+- 🤖 Building AI agents, pipelines, and intelligent applications
+- 🏗️ Implementing FAANG-level system designs with full test suites
+- 📐 Thinking in architecture before thinking in code
+- 🌐 Open source contributor — Oppia, EduAid, Resonate
 - 📍 Pakistan · Open to remote roles & relocation
 
 <br clear="right"/>
-
----
-
-## 🧠 What I Build as an AI Solutions Architect
-
-> I don't just train models — I **design the systems that deploy, serve, and scale them**.
-
-```
-User Query
-    │
-    ▼
-[ Edge Cache / CDN ]  ←── sub-30ms autocomplete, trie-based prefix matching
-    │
-[ API Gateway ]       ←── rate limiting (token bucket, Lua atomic), auth, routing
-    │
-[ AI Agent Layer ]    ←── multi-source scraping, tool calls, memory, error budgets
-    │
-[ Backend Services ]  ←── FastAPI, async SQLAlchemy, Redis Pub/Sub, Kafka
-    │
-[ Storage Layer ]     ←── blob storage (erasure coded), distributed cache (LRU/LFU)
-    │
-[ Observability ]     ←── Prometheus metrics, Grafana dashboards, structured logs
-```
 
 ---
 
@@ -63,8 +42,8 @@ User Query
 ### AI & ML
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
@@ -87,14 +66,16 @@ User Query
 
 ---
 
-## 🤖 AI Projects
+## 🚀 Featured Projects
 
 <div align="center">
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=30days-WebReserach&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/30days-WebReserach)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=last30days-skill&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/last30days-skill)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=medcare-ai&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/medcare-ai)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=odysseus&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/odysseus)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=AdMatrix.ai&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/AdMatrix.ai)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=aether-core-orchestrator&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/aether-core-orchestrator)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=system-design-blob-storage&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/system-design-blob-storage)
 
 </div>
 
@@ -102,16 +83,16 @@ User Query
 
 ## 🏗️ System Design Portfolio
 
-> Implementing FAANG-interview system designs as fully-tested Python codebases — this is how I prove I understand the *infrastructure* that AI systems run on.
+> Implementing FAANG system designs as fully-tested Python codebases — proving I understand the infrastructure AI runs on.
 
 <div align="center">
 
 | Project | Core Concept | Deep-Dive Metric |
 |---------|-------------|-----------------|
 | [🗄️ blob-storage](https://github.com/HamidKhan1001/system-design-blob-storage) | S3/MinIO internals | XOR erasure coding, 3× replication, SHA-256 chunk integrity |
-| [⏱️ rate-limiter-cluster](https://github.com/HamidKhan1001/system-design-rate-limiter-cluster) | Distributed rate limiting | Atomic Lua scripts — no token-sync race conditions |
-| [🕷️ web-crawler](https://github.com/HamidKhan1001/system-design-web-crawler) | Scalable crawler | Priority frontier, politeness delays, cryptographic dedup |
-| [🔍 search-autocomplete](https://github.com/HamidKhan1001/system-design-search-autocomplete) | Typeahead at scale | In-memory Trie, map-reduce trending, sub-30ms via CDN cache |
+| [⏱️ rate-limiter-cluster](https://github.com/HamidKhan1001/system-design-rate-limiter-cluster) | Distributed rate limiting | Atomic Lua scripts — no token-sync race conditions across Redis nodes |
+| [🕷️ web-crawler](https://github.com/HamidKhan1001/system-design-web-crawler) | Scalable crawler | Priority frontier, politeness delays, cryptographic content dedup |
+| [🔍 search-autocomplete](https://github.com/HamidKhan1001/system-design-search-autocomplete) | Typeahead at scale | In-memory Trie, map-reduce trending, sub-30ms via CDN edge cache |
 | [🎬 video-transcoder](https://github.com/HamidKhan1001/system-design-video-transcoder) | HLS media pipeline | 10MB chunks, concurrent async workers, broker-tracked state |
 | [💬 chat-backbone](https://github.com/HamidKhan1001/system-design-chat-backbone) | WhatsApp/Discord scale | WebSocket hub, heartbeat pruning, offline message queues |
 | [🔔 notification-router](https://github.com/HamidKhan1001/system-design-notification-router) | Async multi-channel | Exponential backoff + jitter, dead-letter queues |
@@ -152,8 +133,6 @@ User Query
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=110&section=footer&animation=twinkling"/>
-
-**Designing AI systems that think · Building infrastructure that scales · Shipping products that matter**
+*Building systems that scale · Learning every day · Shipping things that matter*
 
 </div>

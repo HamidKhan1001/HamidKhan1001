@@ -94,7 +94,7 @@ User Query
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=30days-WebReserach&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/30days-WebReserach)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=medcare-ai&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/medcare-ai)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=odysseus&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/odysseus)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001/AdMatrix.ai&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/AdMatrix.ai)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=AdMatrix.ai&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/AdMatrix.ai)
 
 </div>
 

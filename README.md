@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Hamid%20Naeem%20Khan&fontSize=44&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Backend%20Engineer%20%E2%80%A2%20AI%20%2F%20ML%20%E2%80%A2%20Systems%20Builder&descAlignY=56&descSize=17"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:0EA5E9&height=200&section=header&text=Hamid%20Naeem%20Khan&fontSize=44&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Software%20Engineering%20Student%20%E2%80%A2%20Backend%20%26%20Cloud%20Native&descAlignY=56&descSize=17"/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://portfolio-hamid-khan.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=google-chrome&logoColor=white)](https://portfolio-hamid-khan.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hamid-khan-96548833b)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/hamidkhan1001/)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hamidkhanpubgid@gmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=HamidKhan1001&color=6e40c9&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/HamidKhan1001)
+[![Profile Views](https://komarev.com/ghpvc/?username=HamidKhan1001&color=2563EB&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/HamidKhan1001)
 
 </div>
 
@@ -16,12 +16,13 @@
 
 ### 👋 About Me
 
-Software Engineering student building **production-grade backend systems**, learning **AI/ML**, and shipping real products from scratch.
+Software Engineering student building backend systems, learning AI/ML, and going deep on Kubernetes and cloud-native architecture.
 
+- ☁️ Learning Kubernetes operators and controller-runtime by reading and working through a real CNCF-landscape codebase, not just tutorials
 - 🤖 Building AI agents, pipelines, and intelligent applications
-- 🏗️ Implementing FAANG-level system designs with full test suites
+- 🏗️ Practicing large-scale system design patterns as tested Python projects
 - 📐 Thinking in architecture before thinking in code
-- 🌐 Open source contributor — Oppia, EduAid, Resonate
+- 🌐 Contributing to open source — EduAid, Resonate-Website (PRs in review)
 
 <br clear="right"/>
 
@@ -50,16 +51,29 @@ Software Engineering student building **production-grade backend systems**, lear
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
 
-### Infrastructure & DevOps
+### Cloud Native & Infrastructure
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+---
+
+## ☁️ Cloud Native Journey
+
+Currently going deep on Kubernetes operators by working through [OpenEverest](https://github.com/openeverest/openeverest) — a CNCF-landscape project that runs databases on Kubernetes — starting from Go and Kubernetes fundamentals and building up to reading real controllers.
+
+- 📖 Learning Go, `controller-runtime`, CRDs, and the reconciliation-loop pattern from a real, production-shaped operator codebase
+- 🔍 Reading real controllers and provider architecture across the OpenEverest project, not just its docs
+- 🎯 Working toward a first real, defensible contribution — understand it, verify it, be able to explain it
+
+*No merged contributions there yet — this section grows as that changes, not before.*
 
 ---
 
@@ -80,22 +94,22 @@ Software Engineering student building **production-grade backend systems**, lear
 
 ## 🏗️ System Design Portfolio
 
-> Implementing FAANG system designs as fully-tested Python codebases — proving I understand the infrastructure AI runs on.
+> Implementing system design patterns as fully-tested Python codebases, as a way to actually understand the infrastructure behind real systems.
 
 <div align="center">
 
-| Project | Core Concept | Deep-Dive Metric |
+| Project | Core Concept | Approach |
 |---------|-------------|-----------------|
 | [🗄️ blob-storage](https://github.com/HamidKhan1001/system-design-blob-storage) | S3/MinIO internals | XOR erasure coding, 3× replication, SHA-256 chunk integrity |
 | [⏱️ rate-limiter-cluster](https://github.com/HamidKhan1001/system-design-rate-limiter-cluster) | Distributed rate limiting | Atomic Lua scripts — no token-sync race conditions across Redis nodes |
 | [🕷️ web-crawler](https://github.com/HamidKhan1001/system-design-web-crawler) | Scalable crawler | Priority frontier, politeness delays, cryptographic content dedup |
-| [🔍 search-autocomplete](https://github.com/HamidKhan1001/system-design-search-autocomplete) | Typeahead at scale | In-memory Trie, map-reduce trending, sub-30ms via CDN edge cache |
+| [🔍 search-autocomplete](https://github.com/HamidKhan1001/system-design-search-autocomplete) | Typeahead at scale | In-memory Trie, map-reduce trending aggregation, CDN edge caching |
 | [🎬 video-transcoder](https://github.com/HamidKhan1001/system-design-video-transcoder) | HLS media pipeline | 10MB chunks, concurrent async workers, broker-tracked state |
 | [💬 chat-backbone](https://github.com/HamidKhan1001/system-design-chat-backbone) | WhatsApp/Discord scale | WebSocket hub, heartbeat pruning, offline message queues |
 | [🔔 notification-router](https://github.com/HamidKhan1001/system-design-notification-router) | Async multi-channel | Exponential backoff + jitter, dead-letter queues |
 | [📦 distributed-cache](https://github.com/HamidKhan1001/system-design-distributed-cache) | In-memory KV store | O(1) LRU/LFU, stampede shield, consistent-hash sharding |
 | [📊 analytics-ingestion](https://github.com/HamidKhan1001/system-design-analytics-ingestion) | Mixpanel pipeline | Kafka partitioning, Redis spike absorption, batch flushing |
-| [🆔 distributed-id-generator](https://github.com/HamidKhan1001/system-design-distributed-id-generator) | Twitter Snowflake | 4,194,304 IDs/ms across 1,024 workers, clock-backward safe |
+| [🆔 distributed-id-generator](https://github.com/HamidKhan1001/system-design-distributed-id-generator) | Twitter Snowflake | Snowflake-style sharded ID scheme, clock-backward safe |
 
 </div>
 
@@ -120,18 +134,17 @@ Software Engineering student building **production-grade backend systems**, lear
 
 ## 🌐 Open Source Contributions
 
-| Project | Description | Contribution |
+| Project | Description | Status |
 |---------|-------------|--------------|
-| [oppia/oppia](https://github.com/oppia/oppia) | Free online learning platform (Google-backed) | Active contributor 2026–present |
-| [AOSSIE-Org/EduAid](https://github.com/AOSSIE-Org/EduAid) | AI-powered quiz generation | PyTorch compatibility fixes, dependency resolution |
-| [AOSSIE-Org/Resonate-Website](https://github.com/AOSSIE-Org/Resonate-Website) | Open source video platform | Fixed React memory leak in cleanup lifecycle |
+| [AOSSIE-Org/EduAid](https://github.com/AOSSIE-Org/EduAid) | AI-powered quiz generation | 3 PRs open — PyTorch version pin fix, graceful model/credential error handling, README fixes |
+| [AOSSIE-Org/Resonate-Website](https://github.com/AOSSIE-Org/Resonate-Website) | Open source video platform | 2 PRs submitted — GSAP cleanup memory-leak fix, viewport/metadata fix (not yet merged) |
 
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=110&section=footer&animation=twinkling"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:0EA5E9&height=110&section=footer&animation=twinkling"/>
 
-*Building systems that scale · Learning every day · Shipping things that matter*
+*Learning cloud native, one real codebase at a time.*
 
 </div>

@@ -65,46 +65,17 @@ Software Engineering student building backend systems, learning AI/ML, and going
 
 ## ☁️ Cloud Native Journey
 
-Currently going deep on Kubernetes operators by working through [OpenEverest](https://github.com/openeverest/openeverest) — a CNCF-landscape project that runs databases on Kubernetes — starting from Go and Kubernetes fundamentals and building up to reading real controllers.
+Going deep on Kubernetes operators by working through [OpenEverest](https://github.com/openeverest/openeverest) — a CNCF-landscape project — learning Go, `controller-runtime`, CRDs, and the reconciliation-loop pattern from a real, production-shaped codebase.
 
-- 📖 Learning Go, `controller-runtime`, CRDs, and the reconciliation-loop pattern from a real, production-shaped operator codebase
-- 🔍 Reading real controllers and provider architecture across the OpenEverest project, not just its docs
-- 🎯 Working toward a first real, defensible contribution — understand it, verify it, be able to explain it
-
-*First real contribution in progress — this section updates the moment something lands, not before.*
+*First real contribution in progress — this section updates the moment something lands.*
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Projects
 
-- 🔎 [**30days-WebReserach**](https://github.com/HamidKhan1001/30days-WebReserach) — multi-source AI research agent across Reddit, X, YouTube, HN, Polymarket
-- 🩺 [**medcare-ai**](https://github.com/HamidKhan1001/medcare-ai) — full-stack AI healthcare platform: FastAPI + React + LLaVA-Med
-- 📢 [**AdMatrix.ai**](https://github.com/HamidKhan1001/AdMatrix.ai) — multi-agent AI video ad generator
-- 🧭 [**aether-core-orchestrator**](https://github.com/HamidKhan1001/aether-core-orchestrator) — task routing and distributed worker coordination
-- 🗄️ [**system-design-blob-storage**](https://github.com/HamidKhan1001/system-design-blob-storage) — S3/MinIO internals from scratch
-
----
-
-## 🏗️ System Design Portfolio
-
-> Implementing system design patterns as fully-tested Python codebases, as a way to actually understand the infrastructure behind real systems.
-
-<div align="center">
-
-| Project | Core Concept | Approach |
-|---------|-------------|-----------------|
-| [🗄️ blob-storage](https://github.com/HamidKhan1001/system-design-blob-storage) | S3/MinIO internals | XOR erasure coding, 3× replication, SHA-256 chunk integrity |
-| [⏱️ rate-limiter-cluster](https://github.com/HamidKhan1001/system-design-rate-limiter-cluster) | Distributed rate limiting | Atomic Lua scripts — no token-sync race conditions across Redis nodes |
-| [🕷️ web-crawler](https://github.com/HamidKhan1001/system-design-web-crawler) | Scalable crawler | Priority frontier, politeness delays, cryptographic content dedup |
-| [🔍 search-autocomplete](https://github.com/HamidKhan1001/system-design-search-autocomplete) | Typeahead at scale | In-memory Trie, map-reduce trending aggregation, CDN edge caching |
-| [🎬 video-transcoder](https://github.com/HamidKhan1001/system-design-video-transcoder) | HLS media pipeline | 10MB chunks, concurrent async workers, broker-tracked state |
-| [💬 chat-backbone](https://github.com/HamidKhan1001/system-design-chat-backbone) | WhatsApp/Discord scale | WebSocket hub, heartbeat pruning, offline message queues |
-| [🔔 notification-router](https://github.com/HamidKhan1001/system-design-notification-router) | Async multi-channel | Exponential backoff + jitter, dead-letter queues |
-| [📦 distributed-cache](https://github.com/HamidKhan1001/system-design-distributed-cache) | In-memory KV store | O(1) LRU/LFU, stampede shield, consistent-hash sharding |
-| [📊 analytics-ingestion](https://github.com/HamidKhan1001/system-design-analytics-ingestion) | Mixpanel pipeline | Kafka partitioning, Redis spike absorption, batch flushing |
-| [🆔 distributed-id-generator](https://github.com/HamidKhan1001/system-design-distributed-id-generator) | Twitter Snowflake | Snowflake-style sharded ID scheme, clock-backward safe |
-
-</div>
+- 🚴 [**Swift-Go-Delivery-Service**](https://github.com/HamidKhan1001/Swift-Go-Delivery-Service) — bike delivery service app, actively built over a year · 610 commits
+- 🎓 [**Software_eng_uet**](https://github.com/HamidKhan1001/Software_eng_uet) — university software engineering project · ⭐ 3 · 64 commits
+- 🧰 [**student-tool-kit**](https://github.com/HamidKhan1001/student-tool-kit) — web-based student utilities & diagram generation · 38 commits
 
 ---
 

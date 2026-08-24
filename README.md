@@ -8,11 +8,11 @@
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hamidkhanpubgid@gmail.com)
 [![Profile Views](https://komarev.com/ghpvc/?username=HamidKhan1001&color=2563EB&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/HamidKhan1001)
 
+[![CNCF Landscape](https://img.shields.io/badge/CNCF%20Landscape-OpenEverest-0086FF?style=for-the-badge&logo=cncf&logoColor=white)](https://landscape.cncf.io/?item=app-definition-and-development--database--openeverest)
+
 </div>
 
 ---
-
-<img align="right" width="390" src="https://github-readme-stats.vercel.app/api?username=HamidKhan1001&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
 
 ### 👋 About Me
 
@@ -22,9 +22,7 @@ Software Engineering student building backend systems, learning AI/ML, and going
 - 🤖 Building AI agents, pipelines, and intelligent applications
 - 🏗️ Practicing large-scale system design patterns as tested Python projects
 - 📐 Thinking in architecture before thinking in code
-- 🌐 Contributing to open source — EduAid, Resonate-Website (PRs in review)
-
-<br clear="right"/>
+- 🌐 5 PRs submitted to AOSSIE-Org (EduAid, Resonate-Website)
 
 ---
 
@@ -73,22 +71,17 @@ Currently going deep on Kubernetes operators by working through [OpenEverest](ht
 - 🔍 Reading real controllers and provider architecture across the OpenEverest project, not just its docs
 - 🎯 Working toward a first real, defensible contribution — understand it, verify it, be able to explain it
 
-*No merged contributions there yet — this section grows as that changes, not before.*
+*First real contribution in progress — this section updates the moment something lands, not before.*
 
 ---
 
 ## 🚀 Featured Projects
 
-<div align="center">
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=30days-WebReserach&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/30days-WebReserach)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=last30days-skill&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/last30days-skill)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=medcare-ai&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/medcare-ai)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=AdMatrix.ai&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/AdMatrix.ai)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=aether-core-orchestrator&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/aether-core-orchestrator)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=system-design-blob-storage&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/system-design-blob-storage)
-
-</div>
+- 🔎 [**30days-WebReserach**](https://github.com/HamidKhan1001/30days-WebReserach) — multi-source AI research agent across Reddit, X, YouTube, HN, Polymarket
+- 🩺 [**medcare-ai**](https://github.com/HamidKhan1001/medcare-ai) — full-stack AI healthcare platform: FastAPI + React + LLaVA-Med
+- 📢 [**AdMatrix.ai**](https://github.com/HamidKhan1001/AdMatrix.ai) — multi-agent AI video ad generator
+- 🧭 [**aether-core-orchestrator**](https://github.com/HamidKhan1001/aether-core-orchestrator) — task routing and distributed worker coordination
+- 🗄️ [**system-design-blob-storage**](https://github.com/HamidKhan1001/system-design-blob-storage) — S3/MinIO internals from scratch
 
 ---
 
@@ -119,8 +112,7 @@ Currently going deep on Kubernetes operators by working through [OpenEverest](ht
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HamidKhan1001&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-<img height="175" src="https://github-readme-streak-stats.herokuapp.com?user=HamidKhan1001&theme=tokyonight&hide_border=true" />
+<img height="175" src="https://streak-stats.demolab.com?user=HamidKhan1001&theme=tokyonight&hide_border=true" />
 
 </div>
 
@@ -136,8 +128,9 @@ Currently going deep on Kubernetes operators by working through [OpenEverest](ht
 
 | Project | Description | Status |
 |---------|-------------|--------------|
-| [AOSSIE-Org/EduAid](https://github.com/AOSSIE-Org/EduAid) | AI-powered quiz generation | 3 PRs open — PyTorch version pin fix, graceful model/credential error handling, README fixes |
-| [AOSSIE-Org/Resonate-Website](https://github.com/AOSSIE-Org/Resonate-Website) | Open source video platform | 2 PRs submitted — GSAP cleanup memory-leak fix, viewport/metadata fix (not yet merged) |
+| [OpenEverest](https://github.com/openeverest/openeverest) | Cloud-native DBaaS platform for Kubernetes (CNCF Landscape) | Studying the codebase (Go, controller-runtime) — first contribution in progress |
+| [AOSSIE-Org/EduAid](https://github.com/AOSSIE-Org/EduAid) | AI-powered quiz generation | 3 PRs submitted — PyTorch version pin fix, graceful model/credential error handling, README fixes |
+| [AOSSIE-Org/Resonate-Website](https://github.com/AOSSIE-Org/Resonate-Website) | Open source video platform | 2 PRs submitted — GSAP cleanup memory-leak fix, viewport/metadata fix |
 
 ---
 

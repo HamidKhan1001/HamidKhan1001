@@ -17,7 +17,7 @@
 
 ---
 
-### Who I Am
+My Kubernetes cluster has better uptime than my sleep schedule.
 
 Software engineering student at UET Peshawar. Founder of Cortexium, building AI runtime sandboxes and backend orchestration infrastructure. Co-organizer of CNCF Peshawar. I contribute Go patches to production Kubernetes operators and implement distributed systems at the storage and protocol layer.
 
@@ -88,12 +88,11 @@ Software engineering student at UET Peshawar. Founder of Cortexium, building AI 
 
 | Project | What it does |
 |---|---|
-| [aether-core-orchestrator](https://github.com/HamidKhan1001/aether-core-orchestrator) | Backend orchestration layer at Cortexium. Handles runtime lifecycle, task routing, and execution state |
+| [aether-core-orchestrator](https://github.com/HamidKhan1001/aether-core-orchestrator) | Backend orchestration layer at Cortexium. Runtime lifecycle, task routing, execution state |
 | [30days-WebResearch](https://github.com/HamidKhan1001/30days-WebReserach) | Concurrent research engine. SSE streaming, multi-source scraping, error budget enforcement |
 | [medcare-ai](https://github.com/HamidKhan1001/medcare-ai) | Medical AI application |
-| [AdMatrix.ai](https://github.com/HamidKhan1001/AdMatrix.ai) | AI-powered ad targeting and campaign intelligence system |
+| [AdMatrix.ai](https://github.com/HamidKhan1001/AdMatrix.ai) | AI-powered ad targeting and campaign intelligence |
 | [last30days-skill](https://github.com/HamidKhan1001/last30days-skill) | 30-day engineering practice tracker |
-
 ---
 
 ## 🏗️ Systems Design Portfolio

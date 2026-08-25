@@ -9,23 +9,27 @@
 [![CNCF](https://img.shields.io/badge/CNCF-Co--Organizer_Peshawar-0078D4?style=for-the-badge&logo=cncf&logoColor=white)](https://community.cncf.io)
 [![Profile Views](https://komarev.com/ghpvc/?username=HamidKhan1001&color=6e40c9&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/HamidKhan1001)
 
+<br/>
+
+⏱️ **2,000+ hours** shipped across Go, Python & Kubernetes operators &nbsp;·&nbsp; building consistently since 2023
+
 </div>
 
 ---
 
 <img align="right" width="390" src="https://github-readme-stats.vercel.app/api?username=HamidKhan1001&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
 
-### 👋 Who I Am
+### 👋 Hey, I'm Hamid
 
-> *"I break big backend problems into small, deterministic code."*
+CS student at UET Peshawar. I run **Cortexium** as AI Infrastructure Lead, co-organize **CNCF Peshawar**, and spend most of my time writing Go operators, fixing real bugs in Kubernetes projects, and building backend systems that hold up when things go wrong.
 
-Systems engineer focused on **cloud-native infrastructure, Kubernetes operators, and backend orchestration**. No silver bullets — just systems that fail predictably, recover automatically, and get paged about at 3 AM when they don't.
+I care a lot about how systems break — not just how they're supposed to work.
 
 - 🏗️ **Founder & AI Infrastructure Lead** at **Cortexium** — isolated runtime sandboxes and backend orchestration layers
-- ☁️ **Co-organizer, CNCF Community Peshawar** — growing cloud-native and Kubernetes adoption in Pakistan
-- 🔧 **Kubernetes Operator contributor** — real fixes in `openeverest/openeverest`: RBAC informers, silent error propagation, restore job resource limits
-- 📐 Architecture-first: understand the failure modes before writing line one
-- 🎓 Software Engineering student at **UET Peshawar**
+- ☁️ **Co-organizer** — CNCF Community Peshawar
+- 🔧 **Contributor** to `openeverest/openeverest` — Kubernetes operator (RBAC, monitoring, restore lifecycle)
+- 📐 Architecture before code, every time
+- 🎓 Software Engineering @ **UET Peshawar**
 
 <br clear="right"/>
 
@@ -60,32 +64,32 @@ Systems engineer focused on **cloud-native infrastructure, Kubernetes operators,
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white)
+![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-005CED?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyIDJMMiA3bDEwIDUgMTAtNUwxMiAyek0yIDE3bDEwIDUgMTAtNS0xMC01TDIgMTd6Ii8+PC9zdmc+&logoColor=white)](https://onnxruntime.ai)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
 ---
 
-## 🌐 Open Source Contributions
+## 🌐 Open Source
 
-> Real bug fixes in production systems. No docs-only PRs, no typo commits.
+Things I've shipped to projects other people actually use.
 
 ### [openeverest/openeverest](https://github.com/openeverest/openeverest) — Kubernetes Operator / Database Lifecycle Management
 
 | Commit Scope | Description | What Was Actually Broken |
 |---|---|---|
 | `fix(rbac)` | Check informer initialization and wrap watcher error | Nil-dereference panic on RBAC informer cold-start; raw watcher errors were untyped and untraceable in reconcile logs |
-| `fix(monitoring)` | Wrap dropped errors in monitoring instance handler | Silent error swallowing in the monitoring reconcile loop — errors discarded instead of returned to controller-runtime, masking failures |
-| `fix(restore)` | Allow configuring resource limits on restore job containers | Restore Jobs inherited no CPU/memory constraints, causing unschedulable pods under tight namespace resource quotas |
+| `fix(monitoring)` | Wrap dropped errors in monitoring instance handler | Errors were silently discarded in the monitoring reconcile loop instead of being returned to controller-runtime — failures vanished with no trace |
+| `fix(restore)` | Allow configuring resource limits on restore job containers | Restore Jobs had no CPU or memory constraints. Under tight namespace quotas, the pods just wouldn't schedule |
 
 ### Other Projects
 
 | Project | What I Fixed |
 |---------|-------------|
-| [oppia/oppia](https://github.com/oppia/oppia) | Platform stability contributions and issue triaging — active contributor 2026–present |
-| [AOSSIE-Org/EduAid](https://github.com/AOSSIE-Org/EduAid) | Resolved invalid PyTorch versioning pins and cascading backend dependency conflicts that broke CI |
-| [AOSSIE-Org/Resonate-Website](https://github.com/AOSSIE-Org/Resonate-Website) | Diagnosed and patched memory leak caused by un-cleaned GSAP timeline instances in React's cleanup lifecycle |
+| [oppia/oppia](https://github.com/oppia/oppia) | Platform stability, issue triaging, code review — active since 2026 |
+| [AOSSIE-Org/EduAid](https://github.com/AOSSIE-Org/EduAid) | Invalid PyTorch version pins were breaking CI for everyone. Untangled the dependency chain and fixed it |
+| [AOSSIE-Org/Resonate-Website](https://github.com/AOSSIE-Org/Resonate-Website) | Memory leak from GSAP timeline instances that weren't being cleaned up in React's unmount lifecycle. Found it, patched it |
 
 ---
 
@@ -106,10 +110,9 @@ Systems engineer focused on **cloud-native infrastructure, Kubernetes operators,
 
 ## 🏗️ Systems Design Portfolio
 
-> FAANG-scale infrastructure patterns implemented as fully-tested Python codebases.
-> Each repo is a working system, not pseudocode.
->
-> *If it doesn't page at 3 AM, you haven't built distributed systems.*
+Ten systems rebuilt from scratch. Working Python codebases with full test suites — not blog-post diagrams, not pseudocode.
+
+*If it doesn't page at 3 AM, you haven't built distributed systems.*
 
 <div align="center">
 
@@ -135,7 +138,7 @@ Systems engineer focused on **cloud-native infrastructure, Kubernetes operators,
 <div align="center">
 
 <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HamidKhan1001&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-<img height="175" src="https://github-readme-streak-stats.herokuapp.com?user=HamidKhan1001&theme=tokyonight&hide_border=true" />
+<img height="175" src="https://streak-stats.demolab.com?user=HamidKhan1001&theme=tokyonight&hide_border=true" />
 
 </div>
 

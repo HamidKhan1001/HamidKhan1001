@@ -11,22 +11,20 @@
 
 <br/>
 
-⏱️ **2,000+ hours** shipped across Go, Python & Kubernetes operators &nbsp;·&nbsp; building consistently since 2023
+⏱️ **2,000+ hours** across Go, Python & Kubernetes operators &nbsp;·&nbsp; building since 2023
 
 </div>
 
 ---
 
-### 👋 Hey, I'm Hamid
+### Who I Am
 
-CS student at UET Peshawar. I run **Cortexium**, co-organize **CNCF Peshawar**, and write Go. Most of what I touch is infrastructure.
+Software engineering student at UET Peshawar. Founder of Cortexium, building AI runtime sandboxes and backend orchestration infrastructure. Co-organizer of CNCF Peshawar. I contribute Go patches to production Kubernetes operators and implement distributed systems at the storage and protocol layer.
 
-I care more about failure modes than happy paths.
-
-- ⚙️ Founder of **Cortexium** (AI runtime sandboxes and orchestration)
-- 🌐 Co-organizer at **CNCF Peshawar**
-- 🔧 Contributor to `openeverest/openeverest` (Go Kubernetes operator)
-- 🎓 CS @ **UET Peshawar**
+- Founder of **Cortexium** (AI runtime isolation and backend orchestration)
+- Co-organizer, **CNCF Community Peshawar**
+- Contributor to `openeverest/openeverest` (Go Kubernetes database operator)
+- B.Sc. Software Engineering, **UET Peshawar**
 
 ---
 
@@ -66,64 +64,58 @@ I care more about failure modes than happy paths.
 
 ---
 
-## 🌐 Open Source
+## 🌐 Open Source Contributions
 
-Things I've shipped to projects other people use.
+### [openeverest/openeverest](https://github.com/openeverest/openeverest) · Kubernetes Operator / Database Lifecycle
 
-### [openeverest/openeverest](https://github.com/openeverest/openeverest)
-**Kubernetes Operator · Database Lifecycle Management**
-
-| Commit | Fix | What broke |
+| Commit | Description | Root cause |
 |---|---|---|
-| `fix(rbac)` | Check informer init and wrap watcher error | RBAC informer panicked on cold-start. Watcher errors had no type so they were invisible in logs |
-| `fix(monitoring)` | Wrap dropped errors in monitoring instance handler | Errors were getting swallowed in the reconcile loop. Nothing surfaced to controller-runtime, so failures just vanished |
-| `fix(restore)` | Allow configuring resource limits on restore job containers | Restore Jobs had no resource constraints. Under a tight namespace quota, pods wouldn't even schedule |
+| `fix(rbac)` | Check informer init and wrap watcher error | RBAC informer panicked on cold-start due to nil dereference. Watcher errors were untyped, making them invisible in reconcile logs |
+| `fix(monitoring)` | Wrap dropped errors in monitoring instance handler | Monitoring reconcile handler discarded errors instead of returning them to controller-runtime, silently masking reconcile failures |
+| `fix(restore)` | Allow configuring resource limits on restore job containers | Restore Jobs had no CPU or memory constraints. Pods were unschedulable in namespaces with tight resource quotas |
 
-### Other Projects
+### Other Contributions
 
-| Project | What I Fixed |
+| Project | Contribution |
 |---|---|
-| [oppia/oppia](https://github.com/oppia/oppia) | Platform stability, issue triaging, code review. Active since 2026 |
-| [AOSSIE-Org/EduAid](https://github.com/AOSSIE-Org/EduAid) | Invalid PyTorch version pins were breaking CI for everyone. Untangled the dependency chain and fixed it |
-| [AOSSIE-Org/Resonate-Website](https://github.com/AOSSIE-Org/Resonate-Website) | Memory leak from GSAP timeline instances not cleaned up in React's unmount lifecycle. Found it, patched it |
+| [oppia/oppia](https://github.com/oppia/oppia) | Core platform stability, issue triage, and code review. Active contributor since 2026 |
+| [AOSSIE-Org/EduAid](https://github.com/AOSSIE-Org/EduAid) | Resolved broken PyTorch version constraints that blocked CI across environments |
+| [AOSSIE-Org/Resonate-Website](https://github.com/AOSSIE-Org/Resonate-Website) | Removed un-cleared GSAP timeline instances from React component unmount, eliminating a recurring memory leak |
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Projects
 
-<div align="center">
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=30days-WebReserach&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/30days-WebReserach)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=last30days-skill&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/last30days-skill)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=medcare-ai&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/medcare-ai)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=AdMatrix.ai&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/AdMatrix.ai)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=aether-core-orchestrator&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/aether-core-orchestrator)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HamidKhan1001&repo=system-design-blob-storage&theme=tokyonight&hide_border=true)](https://github.com/HamidKhan1001/system-design-blob-storage)
-
-</div>
+| Project | What it does |
+|---|---|
+| [aether-core-orchestrator](https://github.com/HamidKhan1001/aether-core-orchestrator) | Backend orchestration layer at Cortexium. Handles runtime lifecycle, task routing, and execution state |
+| [30days-WebResearch](https://github.com/HamidKhan1001/30days-WebReserach) | Concurrent research engine. SSE streaming, multi-source scraping, error budget enforcement |
+| [medcare-ai](https://github.com/HamidKhan1001/medcare-ai) | Medical AI application |
+| [AdMatrix.ai](https://github.com/HamidKhan1001/AdMatrix.ai) | AI-powered ad targeting and campaign intelligence system |
+| [last30days-skill](https://github.com/HamidKhan1001/last30days-skill) | 30-day engineering practice tracker |
 
 ---
 
 ## 🏗️ Systems Design Portfolio
 
-Ten systems rebuilt from scratch. Working Python codebases with full test suites. No blog-post diagrams.
+Production-quality implementations of distributed infrastructure components. Each covers storage, concurrency, networking, and failure recovery.
 
 *If it doesn't page at 3 AM, you haven't built distributed systems.*
 
 <div align="center">
 
-| Project | Core Concept | Engineering Depth |
-|---------|-------------|------------------|
-| [🗄️ blob-storage](https://github.com/HamidKhan1001/system-design-blob-storage) | S3/MinIO internals | XOR erasure coding, 3× replication, SHA-256 chunk integrity |
-| [⏱️ rate-limiter-cluster](https://github.com/HamidKhan1001/system-design-rate-limiter-cluster) | Distributed rate limiting | Atomic Lua scripts, no token-sync race conditions across Redis nodes |
-| [🕷️ web-crawler](https://github.com/HamidKhan1001/system-design-web-crawler) | Scalable crawler | Priority frontier, politeness delays, cryptographic content dedup |
-| [🔍 search-autocomplete](https://github.com/HamidKhan1001/system-design-search-autocomplete) | Typeahead at scale | In-memory Trie, map-reduce trending, sub-30ms via CDN edge cache |
-| [🎬 video-transcoder](https://github.com/HamidKhan1001/system-design-video-transcoder) | HLS media pipeline | 10MB chunks, concurrent async workers, broker-tracked state |
-| [💬 chat-backbone](https://github.com/HamidKhan1001/system-design-chat-backbone) | WhatsApp/Discord scale | WebSocket hub, heartbeat pruning, offline message queues |
-| [🔔 notification-router](https://github.com/HamidKhan1001/system-design-notification-router) | Async multi-channel delivery | Exponential backoff with jitter, dead-letter queues |
-| [📦 distributed-cache](https://github.com/HamidKhan1001/system-design-distributed-cache) | In-memory KV store | O(1) LRU/LFU, stampede shield, consistent-hash sharding |
-| [📊 analytics-ingestion](https://github.com/HamidKhan1001/system-design-analytics-ingestion) | Mixpanel-style pipeline | Kafka partitioning, Redis spike absorption, batch flushing |
-| [🆔 distributed-id-generator](https://github.com/HamidKhan1001/system-design-distributed-id-generator) | Twitter Snowflake clone | 4,194,304 IDs/ms across 1,024 workers, clock-backward safe |
+| Project | System | Implementation depth |
+|---|---|---|
+| [blob-storage](https://github.com/HamidKhan1001/system-design-blob-storage) | Object storage (S3/MinIO internals) | XOR erasure coding, 3× replication, SHA-256 chunk integrity |
+| [rate-limiter-cluster](https://github.com/HamidKhan1001/system-design-rate-limiter-cluster) | Distributed rate limiting | Atomic Lua token-bucket scripts, no race conditions across Redis nodes |
+| [web-crawler](https://github.com/HamidKhan1001/system-design-web-crawler) | Scalable web crawler | Priority URL frontier, politeness delays, cryptographic content dedup |
+| [search-autocomplete](https://github.com/HamidKhan1001/system-design-search-autocomplete) | Typeahead at scale | In-memory Trie, map-reduce trending aggregation, sub-30ms via CDN edge |
+| [video-transcoder](https://github.com/HamidKhan1001/system-design-video-transcoder) | HLS media pipeline | 10MB chunking, concurrent async workers, broker-tracked job state |
+| [chat-backbone](https://github.com/HamidKhan1001/system-design-chat-backbone) | Real-time messaging | WebSocket connection hub, heartbeat pruning, offline message queues |
+| [notification-router](https://github.com/HamidKhan1001/system-design-notification-router) | Async multi-channel delivery | Exponential backoff with jitter, dead-letter queues |
+| [distributed-cache](https://github.com/HamidKhan1001/system-design-distributed-cache) | In-memory KV store | O(1) LRU/LFU eviction, stampede shield, consistent-hash sharding |
+| [analytics-ingestion](https://github.com/HamidKhan1001/system-design-analytics-ingestion) | Event ingestion pipeline | Kafka partitioning, Redis spike buffer, batch flushing |
+| [distributed-id-generator](https://github.com/HamidKhan1001/system-design-distributed-id-generator) | Snowflake ID generation | 4,194,304 IDs/ms across 1,024 workers, clock-skew safe |
 
 </div>
 
@@ -156,6 +148,6 @@ Ten systems rebuilt from scratch. Working Python codebases with full test suites
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=110&section=footer&animation=twinkling"/>
 
-*Writing code that handles failures, not just the happy path.*
+*Building the infrastructure layer. The part no one sees until it breaks.*
 
 </div>

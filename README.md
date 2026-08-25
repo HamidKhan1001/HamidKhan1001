@@ -1,11 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Hamid%20Naeem%20Khan&fontSize=44&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Backend%20Engineer%20%E2%80%A2%20AI%20%2F%20ML%20%E2%80%A2%20Systems%20Builder&descAlignY=56&descSize=17"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Hamid%20Naeem%20Khan&fontSize=44&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Systems%20Engineer%20%E2%80%A2%20Cloud-Native%20%E2%80%A2%20Operator%20Architecture&descAlignY=56&descSize=17"/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://portfolio-hamid-khan.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hamid-khan-96548833b)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/hamidkhan1001/)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hamidkhanpubgid@gmail.com)
+[![CNCF](https://img.shields.io/badge/CNCF-Co--Organizer_Peshawar-0078D4?style=for-the-badge&logo=cncf&logoColor=white)](https://community.cncf.io)
 [![Profile Views](https://komarev.com/ghpvc/?username=HamidKhan1001&color=6e40c9&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/HamidKhan1001)
 
 </div>
@@ -14,14 +15,17 @@
 
 <img align="right" width="390" src="https://github-readme-stats.vercel.app/api?username=HamidKhan1001&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
 
-### 👋 About Me
+### 👋 Who I Am
 
-Software Engineering student building **production-grade backend systems**, learning **AI/ML**, and shipping real products from scratch.
+> *"I break big backend problems into small, deterministic code."*
 
-- 🤖 Building AI agents, pipelines, and intelligent applications
-- 🏗️ Implementing FAANG-level system designs with full test suites
-- 📐 Thinking in architecture before thinking in code
-- 🌐 Open source contributor — Oppia, EduAid, Resonate
+Systems engineer focused on **cloud-native infrastructure, Kubernetes operators, and backend orchestration**. No silver bullets — just systems that fail predictably, recover automatically, and get paged about at 3 AM when they don't.
+
+- 🏗️ **Founder & AI Infrastructure Lead** at **Cortexium** — isolated runtime sandboxes and backend orchestration layers
+- ☁️ **Co-organizer, CNCF Community Peshawar** — growing cloud-native and Kubernetes adoption in Pakistan
+- 🔧 **Kubernetes Operator contributor** — real fixes in `openeverest/openeverest`: RBAC informers, silent error propagation, restore job resource limits
+- 📐 Architecture-first: understand the failure modes before writing line one
+- 🎓 Software Engineering student at **UET Peshawar**
 
 <br clear="right"/>
 
@@ -32,34 +36,56 @@ Software Engineering student building **production-grade backend systems**, lear
 ### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-### AI & ML
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-
-### Backend & Frameworks
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
-
-### Infrastructure & DevOps
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+### Cloud & Infrastructure
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+### Observability
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+
+### Backend & AI Runtimes
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+
+---
+
+## 🌐 Open Source Contributions
+
+> Real bug fixes in production systems. No docs-only PRs, no typo commits.
+
+### [openeverest/openeverest](https://github.com/openeverest/openeverest) — Kubernetes Operator / Database Lifecycle Management
+
+| Commit Scope | Description | What Was Actually Broken |
+|---|---|---|
+| `fix(rbac)` | Check informer initialization and wrap watcher error | Nil-dereference panic on RBAC informer cold-start; raw watcher errors were untyped and untraceable in reconcile logs |
+| `fix(monitoring)` | Wrap dropped errors in monitoring instance handler | Silent error swallowing in the monitoring reconcile loop — errors discarded instead of returned to controller-runtime, masking failures |
+| `fix(restore)` | Allow configuring resource limits on restore job containers | Restore Jobs inherited no CPU/memory constraints, causing unschedulable pods under tight namespace resource quotas |
+
+### Other Projects
+
+| Project | What I Fixed |
+|---------|-------------|
+| [oppia/oppia](https://github.com/oppia/oppia) | Platform stability contributions and issue triaging — active contributor 2026–present |
+| [AOSSIE-Org/EduAid](https://github.com/AOSSIE-Org/EduAid) | Resolved invalid PyTorch versioning pins and cascading backend dependency conflicts that broke CI |
+| [AOSSIE-Org/Resonate-Website](https://github.com/AOSSIE-Org/Resonate-Website) | Diagnosed and patched memory leak caused by un-cleaned GSAP timeline instances in React's cleanup lifecycle |
 
 ---
 
@@ -78,24 +104,27 @@ Software Engineering student building **production-grade backend systems**, lear
 
 ---
 
-## 🏗️ System Design Portfolio
+## 🏗️ Systems Design Portfolio
 
-> Implementing FAANG system designs as fully-tested Python codebases — proving I understand the infrastructure AI runs on.
+> FAANG-scale infrastructure patterns implemented as fully-tested Python codebases.
+> Each repo is a working system, not pseudocode.
+>
+> *If it doesn't page at 3 AM, you haven't built distributed systems.*
 
 <div align="center">
 
-| Project | Core Concept | Deep-Dive Metric |
-|---------|-------------|-----------------|
+| Project | Core Concept | Engineering Depth |
+|---------|-------------|------------------|
 | [🗄️ blob-storage](https://github.com/HamidKhan1001/system-design-blob-storage) | S3/MinIO internals | XOR erasure coding, 3× replication, SHA-256 chunk integrity |
 | [⏱️ rate-limiter-cluster](https://github.com/HamidKhan1001/system-design-rate-limiter-cluster) | Distributed rate limiting | Atomic Lua scripts — no token-sync race conditions across Redis nodes |
 | [🕷️ web-crawler](https://github.com/HamidKhan1001/system-design-web-crawler) | Scalable crawler | Priority frontier, politeness delays, cryptographic content dedup |
 | [🔍 search-autocomplete](https://github.com/HamidKhan1001/system-design-search-autocomplete) | Typeahead at scale | In-memory Trie, map-reduce trending, sub-30ms via CDN edge cache |
 | [🎬 video-transcoder](https://github.com/HamidKhan1001/system-design-video-transcoder) | HLS media pipeline | 10MB chunks, concurrent async workers, broker-tracked state |
 | [💬 chat-backbone](https://github.com/HamidKhan1001/system-design-chat-backbone) | WhatsApp/Discord scale | WebSocket hub, heartbeat pruning, offline message queues |
-| [🔔 notification-router](https://github.com/HamidKhan1001/system-design-notification-router) | Async multi-channel | Exponential backoff + jitter, dead-letter queues |
+| [🔔 notification-router](https://github.com/HamidKhan1001/system-design-notification-router) | Async multi-channel delivery | Exponential backoff + jitter, dead-letter queues |
 | [📦 distributed-cache](https://github.com/HamidKhan1001/system-design-distributed-cache) | In-memory KV store | O(1) LRU/LFU, stampede shield, consistent-hash sharding |
-| [📊 analytics-ingestion](https://github.com/HamidKhan1001/system-design-analytics-ingestion) | Mixpanel pipeline | Kafka partitioning, Redis spike absorption, batch flushing |
-| [🆔 distributed-id-generator](https://github.com/HamidKhan1001/system-design-distributed-id-generator) | Twitter Snowflake | 4,194,304 IDs/ms across 1,024 workers, clock-backward safe |
+| [📊 analytics-ingestion](https://github.com/HamidKhan1001/system-design-analytics-ingestion) | Mixpanel-style pipeline | Kafka partitioning, Redis spike absorption, batch flushing |
+| [🆔 distributed-id-generator](https://github.com/HamidKhan1001/system-design-distributed-id-generator) | Twitter Snowflake clone | 4,194,304 IDs/ms across 1,024 workers, clock-backward safe |
 
 </div>
 
@@ -118,20 +147,10 @@ Software Engineering student building **production-grade backend systems**, lear
 
 ---
 
-## 🌐 Open Source Contributions
-
-| Project | Description | Contribution |
-|---------|-------------|--------------|
-| [oppia/oppia](https://github.com/oppia/oppia) | Free online learning platform (Google-backed) | Active contributor 2026–present |
-| [AOSSIE-Org/EduAid](https://github.com/AOSSIE-Org/EduAid) | AI-powered quiz generation | PyTorch compatibility fixes, dependency resolution |
-| [AOSSIE-Org/Resonate-Website](https://github.com/AOSSIE-Org/Resonate-Website) | Open source video platform | Fixed React memory leak in cleanup lifecycle |
-
----
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=110&section=footer&animation=twinkling"/>
 
-*Building systems that scale · Learning every day · Shipping things that matter*
+*Writing code that handles failures, not just the happy path.*
 
 </div>

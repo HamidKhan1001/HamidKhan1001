@@ -1,46 +1,51 @@
 # Hamid Naeem Khan
 
-Software engineer. B.Sc. Software Engineering student at UET Peshawar. I build backend software in Go and Python and am currently going deeper on Kubernetes (operators and controllers) and applied AI systems.
+Software engineer. I build backend systems in Go and Python, and I spend most of my open-source time inside Kubernetes operators and database tooling. I am currently going deeper on controller design and applied AI systems.
 
-Based in Pakistan. Co-organizer of CNCF Community Peshawar.
+B.Sc. Software Engineering, UET Peshawar. Co-organizer of CNCF Community Peshawar. Based in Pakistan.
 
-[Portfolio](https://portfolio-hamid-khan.vercel.app) | [LinkedIn](https://linkedin.com/in/hamid-khan-96548833b) | [LeetCode](https://leetcode.com/u/hamidkhan1001/) | hamidkhanpubgid@gmail.com
+[LinkedIn](https://linkedin.com/in/hamid-khan-96548833b) | [LeetCode](https://leetcode.com/u/hamidkhan1001/)
 
-## Open source
+I read error handling the way some people read mystery novels, mostly to find where the bodies are buried. That habit is where most of my open-source fixes come from.
 
-### OpenEverest (Go, TypeScript, Kubernetes)
+## Stack
 
-[OpenEverest](https://github.com/openeverest/openeverest) is an open-source platform for provisioning and managing databases on Kubernetes.
+<p>
+  <img src="https://skillicons.dev/icons?i=go,py,ts,c,cpp&perline=10" alt="Go, Python, TypeScript, C, C++" />
+</p>
+<p>
+  <img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,nginx,aws&perline=10" alt="Kubernetes, Docker, Linux, Nginx, AWS" />
+</p>
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,redis,kafka,fastapi,nodejs&perline=10" alt="PostgreSQL, Redis, Kafka, FastAPI, Node.js" />
+</p>
+<p>
+  <img src="https://skillicons.dev/icons?i=prometheus,grafana&perline=10" alt="Prometheus, Grafana" />
+</p>
 
-Merged:
-- [#3118](https://github.com/openeverest/openeverest/pull/3118): include the actual assignee and likely cause in the error returned when a delegated assign fails.
-- [#2943](https://github.com/openeverest/openeverest/pull/2943): return previously dropped errors from the monitoring instance handler so reconcile failures surface to controller-runtime.
-- [#2945](https://github.com/openeverest/openeverest/pull/2945): same fix for the monitoring config secret update, backported to v2.
+## Featured project
 
-In review:
-- [#2995](https://github.com/openeverest/openeverest/pull/2995): allow configuring resource limits on restore job containers.
-- [#3203](https://github.com/openeverest/openeverest/pull/3203): fix the v2 quick start so Tilt is configured before it is started.
-- [provider-percona-server-mongodb](https://github.com/openeverest/provider-percona-server-mongodb): map Backup and Restore timestamps from the operator's real status.
-- [plugin-audit](https://github.com/openeverest/plugin-audit): migrate the audit consumer off the removed session endpoint.
+**[system-design-distributed-cache](https://github.com/HamidKhan1001/system-design-distributed-cache)** (Python)
 
-### Other
+LRU and LFU caches with O(1) operations, a stampede shield that collapses concurrent recomputation of a hot key into a single call, and a sharded wrapper. The README documents the design, the tradeoffs, and the known limits, including where it is not a real distributed system. 36 tests.
 
-- [AOSSIE-Org/EduAid](https://github.com/AOSSIE-Org/EduAid): open PRs fixing an invalid PyTorch version pin and handling a missing Sense2Vec model and invalid Google credentials at startup.
-- [drasi-project/learning](https://github.com/drasi-project/learning): open PRs on documentation and demo scripts.
+## Open source contributions
 
-## Projects
+### OpenEverest (Go, Kubernetes)
+
+[OpenEverest](https://github.com/openeverest/openeverest) provisions and manages databases on Kubernetes. Merged pull requests:
+
+- [#3118](https://github.com/openeverest/openeverest/pull/3118): report the actual assignee and likely cause when a delegated assign fails, instead of a generic error.
+- [#2943](https://github.com/openeverest/openeverest/pull/2943): return previously dropped errors from the monitoring instance handler, so failures reach controller-runtime instead of disappearing.
+- [#2945](https://github.com/openeverest/openeverest/pull/2945): the same fix for the monitoring config secret update, backported to v2.
+
+## More projects
 
 | Project | Description |
 |---|---|
+| [system-design-rate-limiter-cluster](https://github.com/HamidKhan1001/system-design-rate-limiter-cluster) | Redis token-bucket rate limiter using an atomic Lua script, so concurrent requests cannot race on the counter. |
+| [system-design-distributed-id-generator](https://github.com/HamidKhan1001/system-design-distributed-id-generator) | Snowflake-style 64-bit IDs: 41-bit timestamp, datacenter and worker bits, 12-bit sequence. Raises on clock regression. |
 | [url_shortner](https://github.com/HamidKhan1001/url_shortner) | URL shortener in Go with base62 key generation, a redirect handler, and unit tests. |
-| [system-design-*](https://github.com/HamidKhan1001?tab=repositories&q=system-design) | Small Python implementations of distributed-systems building blocks, each with tests: LRU/LFU cache with stampede protection, Redis token-bucket rate limiter, chunked blob storage with replication, web crawler frontier, notification router with retries and dead-letter queue, Snowflake-style ID generator. |
-| [fastapi-api-key-rotation](https://github.com/HamidKhan1001/fastapi-api-key-rotation), [api-idempotency-key-manager](https://github.com/HamidKhan1001/api-idempotency-key-manager), [sqlalchemy-async-soft-delete](https://github.com/HamidKhan1001/sqlalchemy-async-soft-delete) | Reusable FastAPI and SQLAlchemy components for API key lifecycle, idempotent retries, and soft deletes. |
-| [Cortexium](https://github.com/HamidKhan1001/cortexium) | Early-stage work on AI runtime sandboxing and backend orchestration. |
-
-## Languages and tools
-
-- Languages: Go, Python, TypeScript, C, C++, SQL
-- Infrastructure: Kubernetes (operators, controller-runtime), Docker, Nginx, Linux, AWS
-- Data: PostgreSQL, Redis, Kafka
-- Backend: FastAPI, Node.js
-- Observability: Prometheus, Grafana
+| [api-idempotency-key-manager](https://github.com/HamidKhan1001/api-idempotency-key-manager) | FastAPI middleware for safe request retries using atomic Redis `SET NX`. |
+| [fastapi-api-key-rotation](https://github.com/HamidKhan1001/fastapi-api-key-rotation) | API key generation, rotation with a grace period, and Redis-backed revocation. |
+| [system-design-*](https://github.com/HamidKhan1001?tab=repositories&q=system-design) | The rest of the series: blob storage, web crawler frontier, notification router, chat hub, analytics ingestion. Small, tested Python implementations. |

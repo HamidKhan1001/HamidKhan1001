@@ -4,7 +4,7 @@ Software engineer. I build backend systems in Go and Python, and I spend most of
 
 B.Sc. Software Engineering, UET Peshawar. Co-organizer of CNCF Community Peshawar. Based in Pakistan.
 
-[LinkedIn](https://linkedin.com/in/hamid-khan-96548833b) | [LeetCode](https://leetcode.com/u/hamidkhan1001/)
+[LinkedIn](https://linkedin.com/in/hamid-khan-96548833b)
 
 I read error handling the way some people read mystery novels, mostly to find where the bodies are buried. That habit is where most of my open-source fixes come from.
 
@@ -43,9 +43,8 @@ LRU and LFU caches with O(1) operations, a stampede shield that collapses concur
 
 | Project | Description |
 |---|---|
-| [system-design-rate-limiter-cluster](https://github.com/HamidKhan1001/system-design-rate-limiter-cluster) | Redis token-bucket rate limiter using an atomic Lua script, so concurrent requests cannot race on the counter. |
+| [url_shortner](https://github.com/HamidKhan1001/url_shortner) | URL shortening service in Go. Gin API, PostgreSQL storage, Redis read-through cache, Docker Compose, CI. Layered architecture with collision retry and graceful shutdown. |
+| [system-design-rate-limiter-cluster](https://github.com/HamidKhan1001/system-design-rate-limiter-cluster) | Redis token-bucket rate limiter where each decision is one atomic Lua script. Tested with a concurrency test. |
+| [api-idempotency-key-manager](https://github.com/HamidKhan1001/api-idempotency-key-manager) | FastAPI middleware for safe request retries using an atomic Redis `SET NX` claim. README lists its known limitations. |
 | [system-design-distributed-id-generator](https://github.com/HamidKhan1001/system-design-distributed-id-generator) | Snowflake-style 64-bit IDs: 41-bit timestamp, datacenter and worker bits, 12-bit sequence. Raises on clock regression. |
-| [url_shortner](https://github.com/HamidKhan1001/url_shortner) | URL shortener in Go with base62 key generation, a redirect handler, and unit tests. |
-| [api-idempotency-key-manager](https://github.com/HamidKhan1001/api-idempotency-key-manager) | FastAPI middleware for safe request retries using atomic Redis `SET NX`. |
-| [fastapi-api-key-rotation](https://github.com/HamidKhan1001/fastapi-api-key-rotation) | API key generation, rotation with a grace period, and Redis-backed revocation. |
 | [system-design-*](https://github.com/HamidKhan1001?tab=repositories&q=system-design) | The rest of the series: blob storage, web crawler frontier, notification router, chat hub, analytics ingestion. Small, tested Python implementations. |

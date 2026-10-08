@@ -4,7 +4,7 @@ Software engineer. I build backend systems in Go and Python, and I spend most of
 
 B.Sc. Software Engineering, UET Peshawar. Co-organizer of CNCF Community Peshawar. Based in Pakistan.
 
-[LinkedIn](https://linkedin.com/in/hamid-khan-96548833b)
+[LinkedIn](https://www.linkedin.com/in/hamid-naeem-khan-278413402/)
 
 I read error handling the way some people read mystery novels, mostly to find where the bodies are buried. That habit is where most of my open-source fixes come from.
 

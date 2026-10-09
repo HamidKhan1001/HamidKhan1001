@@ -4,9 +4,9 @@ Software engineer. I build backend systems in Go and Python, and I spend most of
 
 B.Sc. Software Engineering, UET Peshawar. Co-organizer of CNCF Community Peshawar. Based in Pakistan.
 
-[LinkedIn](https://www.linkedin.com/in/hamid-naeem-khan-278413402/)
+[LinkedIn](https://linkedin.com/in/hamid-khan-96548833b)
 
-I read error handling the way some people read mystery novels, mostly to find where the bodies are buried. That habit is where most of my open-source fixes come from.
+I like boring, predictable software, especially the kind that fails loudly instead of quietly.
 
 ## Stack
 
@@ -38,6 +38,14 @@ LRU and LFU caches with O(1) operations, a stampede shield that collapses concur
 - [#3118](https://github.com/openeverest/openeverest/pull/3118): report the actual assignee and likely cause when a delegated assign fails, instead of a generic error.
 - [#2943](https://github.com/openeverest/openeverest/pull/2943): return previously dropped errors from the monitoring instance handler, so failures reach controller-runtime instead of disappearing.
 - [#2945](https://github.com/openeverest/openeverest/pull/2945): the same fix for the monitoring config secret update, backported to v2.
+
+## How I work
+
+- **Tests and CI on everything featured here.** The badges in each repo reflect real runs, not decoration.
+- **Failure paths first.** My OpenEverest fixes are about errors that were dropped or unclear. In my own projects I decide up front what happens when Redis or the database is down, and document it.
+- **Honest READMEs.** Each one explains the design and tradeoffs, and lists known limitations, including bugs I have not fixed yet.
+- **Concurrency is tested, not assumed.** The rate limiter has a test where 10 threads share a 50-token bucket and exactly 50 requests are allowed.
+- **Small, reviewable changes** with a clear description of the problem being fixed.
 
 ## More projects
 

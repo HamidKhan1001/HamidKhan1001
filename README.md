@@ -39,13 +39,7 @@ LRU and LFU caches with O(1) operations, a stampede shield that collapses concur
 - [#2943](https://github.com/openeverest/openeverest/pull/2943): return previously dropped errors from the monitoring instance handler, so failures reach controller-runtime instead of disappearing.
 - [#2945](https://github.com/openeverest/openeverest/pull/2945): the same fix for the monitoring config secret update, backported to v2.
 
-## How I work
 
-- **Tests and CI on everything featured here.** The badges in each repo reflect real runs, not decoration.
-- **Failure paths first.** My OpenEverest fixes are about errors that were dropped or unclear. In my own projects I decide up front what happens when Redis or the database is down, and document it.
-- **Honest READMEs.** Each one explains the design and tradeoffs, and lists known limitations, including bugs I have not fixed yet.
-- **Concurrency is tested, not assumed.** The rate limiter has a test where 10 threads share a 50-token bucket and exactly 50 requests are allowed.
-- **Small, reviewable changes** with a clear description of the problem being fixed.
 
 ## More projects
 

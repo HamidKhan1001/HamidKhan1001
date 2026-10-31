@@ -1,6 +1,6 @@
 # Hamid Naeem Khan
 
-Software engineer and **GitHub Campus Expert**, based in Peshawar, Pakistan. I work on backend systems in Go and Python, mostly around Kubernetes operators and database tooling, and I do most of my learning by contributing to open source.
+Software engineer and 🚩 **GitHub Campus Expert**, based in Peshawar, Pakistan. I work on backend systems in Go and Python, mostly around Kubernetes operators and database tooling, and I do most of my learning by contributing to open source.
 
 B.Sc. Software Engineering at UET Peshawar. Co-organizer of CNCF Community Peshawar.
 
@@ -23,7 +23,7 @@ I like reading a codebase until I understand why it is the way it is, then fixin
 
 **[Tales of OpenEverest](https://github.com/HamidKhan1001/TalesOfOpenEverest)**: a write-up of the contribution process as it happened, including review comments and mistakes.
 
-## Community
+## 🚩 Community
 
 As a Campus Expert I help students at UET Peshawar get started with Git, GitHub and open source: workshops, events and first pull requests. With CNCF Community Peshawar I help organize local talks and meetups.
 

@@ -5,6 +5,7 @@ Software engineer and **GitHub Campus Expert  🚩**, based in Peshawar, Pakista
 B.Sc. Software Engineering at UET Peshawar. Co-organizer of CNCF Community Peshawar.
 
 <p>
+  <a href="https://hamidnaeemkhan.tech/"><img src="https://img.shields.io/badge/Portfolio-hamidnaeemkhan.tech-111?style=flat-square" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/hamid-naeem-khan-278413402/"><img src="https://img.shields.io/badge/LinkedIn-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://leetcode.com/u/hamidkhan1001/"><img src="https://img.shields.io/badge/LeetCode-1c1c1c?style=flat-square&logo=leetcode&logoColor=ffa116" alt="LeetCode" /></a>
   <img src="https://komarev.com/ghpvc/?username=HamidKhan1001&label=Profile%20views&color=8957e5&style=flat-square" alt="Profile views" />

@@ -1,6 +1,6 @@
 # Hamid Naeem Khan
 
-Software engineer and 🚩 **GitHub Campus Expert**, based in Peshawar, Pakistan. I work on backend systems in Go and Python, mostly around Kubernetes operators and database tooling, and I do most of my learning by contributing to open source.
+Software engineer and **GitHub Campus Expert  🚩**, based in Peshawar, Pakistan. I work on backend systems in Go and Python, mostly around Kubernetes operators and database tooling, and I do most of my learning by contributing to open source.
 
 B.Sc. Software Engineering at UET Peshawar. Co-organizer of CNCF Community Peshawar.
 

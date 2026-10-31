@@ -1,10 +1,27 @@
 # Hamid Naeem Khan
 
-Software engineer. I build backend systems in Go and Python, and I spend most of my open-source time inside Kubernetes operators and database tooling. I am currently going deeper on controller design and applied AI systems.
+<p>
+  <img src="https://img.shields.io/badge/GitHub-Campus%20Expert-8957e5?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Campus Expert" />
+  <img src="https://img.shields.io/badge/CNCF-Community%20Peshawar-2ea043?style=for-the-badge&logo=cncf&logoColor=white" alt="CNCF Community Peshawar" />
+  <img src="https://img.shields.io/badge/Pakistan-Peshawar-01411c?style=for-the-badge" alt="Peshawar, Pakistan" />
+</p>
+
+Software engineer and **GitHub Campus Expert**. I build backend systems in Go and Python, and I spend most of my open-source time inside Kubernetes operators and database tooling. I am currently going deeper on controller design and applied AI systems.
 
 B.Sc. Software Engineering, UET Peshawar. Co-organizer of CNCF Community Peshawar. Based in Pakistan.
 
-[LinkedIn](https://linkedin.com/in/hamid-khan-96548833b)
+```text
+$ gh campus-expert status
+✔ role      GitHub Campus Expert
+✔ campus    UET Peshawar
+✔ focus     workshops, events, open-source onboarding
+```
+
+## Community
+
+As a Campus Expert I help students at UET Peshawar get started with Git, GitHub and open source: workshops, events, and first pull requests. The loop is the same as my code: ship something small, learn in public, bring more people in.
+
+[LinkedIn](https://linkedin.com/in/hamid-khan-96548833b) · [LeetCode](https://leetcode.com/u/hamidkhan1001/)
 
 I like boring, predictable software, especially the kind that fails loudly instead of quietly.
 
